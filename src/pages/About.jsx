@@ -3,16 +3,16 @@ import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
 
-class Home extends Component {
+class About extends Component {
   render () {
     return (
       <div>
-        <Jumbotron title="Welcome" subtitle="Petit recap de ce que vous allez trouver sur mon site" />
+        <Jumbotron title="A propos" subtitle="Mon aventure jusqu'à présent" />
         <Navbar />
         <div className="container">
-          <h2>Page d'accueil</h2>
+          <h2>About</h2>
             <p>
-              Premier paragraphe
+              A propos de moi..
             </p>
           </div>
           <Footer />
@@ -21,4 +21,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default About;
