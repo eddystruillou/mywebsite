@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar.jsx';
-import Footer from '../components/Footer.jsx';
-import Jumbotron from '../components/Jumbotron.jsx';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Jumbotron from '../components/Jumbotron';
+import Row from '../components/Row';
+import './Home.css';
 
 class Home extends Component {
   render () {
@@ -14,6 +16,8 @@ class Home extends Component {
             <p>
               Premier paragraphe
             </p>
+            <h2>Réalisations</h2>
+          <Row />
           </div>
           <Footer />
       </div>

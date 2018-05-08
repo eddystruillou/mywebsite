@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 
-import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
-import Projects from './pages/Projects.jsx';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
 
 class App extends Component {
   render() {
