@@ -12,7 +12,7 @@ class Navbar extends Component {
       <div className="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
         <ul className="navbar-nav">
           <li className="nav-item px-3 active">
-            <Link className="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
+            <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
           </li>
           <li className="nav-item px-3">
             <Link className="nav-link" to="/about">About</Link>

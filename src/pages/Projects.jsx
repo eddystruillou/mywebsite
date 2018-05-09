@@ -21,7 +21,7 @@ class Projects extends Component {
           <div className="parallax text-center">
           <div className="row">
             <div className="col-5 pt-5">
-              <img src={Projet1} className="img-fluid"/>
+              <img src={Projet1} className="img-fluid" alt="chalet&caviar"/>
             </div>
             <div className="col-7 pt-5">
               <h2>Intégration Wordpress</h2>
@@ -53,7 +53,7 @@ class Projects extends Component {
               <a href="http://festivaldesfilmsdepleinair.eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
             </div>
             <div className="col-5 pt-5">
-              <img src={Projet2} className="img-fluid"/>
+              <img src={Projet2} className="img-fluid" alt="festivaldesfilms"/>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ class Projects extends Component {
         <div className="parallax text-center">
           <div className="row">
             <div className="col-5 pt-5">
-              <img src={Projet3} className="img-fluid"/>
+              <img src={Projet3} className="img-fluid" alt="generateurcitations"/>
             </div>
             <div className="col-7 pt-5">
               <h2>Générateur de citations</h2>
@@ -93,7 +93,7 @@ class Projects extends Component {
               <a href="http://projet6.eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
             </div>
             <div className="col-5 pt-5">
-              <img src={Projet4} className="img-fluid"/>
+              <img src={Projet4} className="img-fluid" alt="jeutourpartour"/>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ class Projects extends Component {
         <div className="parallax text-center">
           <div className="row">
             <div className="col-5 pt-5">
-              <img src={Projet5} className="img-fluid"/>
+              <img src={Projet5} className="img-fluid" alt="maprestauration"/>
             </div>
             <div className="col-7 pt-5">
               <h2>Site d'avis de restaurants</h2>
@@ -133,7 +133,7 @@ class Projects extends Component {
               <a href="http://projet8.eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
             </div>
             <div className="col-5 pt-5">
-              <img src={Projet6} className="img-fluid"/>
+              <img src={Projet6} className="img-fluid" alt="todolist"/>
             </div>
           </div>
         </div>

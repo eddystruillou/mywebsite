@@ -10,7 +10,7 @@ class Etudes extends Component {
         <div className="parallax text-center">
           <div className="row">
             <div className="col-5 pt-5">
-              <img src={Parcours} className="img-fluid"/>
+              <img src={Parcours} className="img-fluid" alt="books"/>
             </div>
             <div className="col-1"></div>
             <div className="col-5 text-center pt-5">

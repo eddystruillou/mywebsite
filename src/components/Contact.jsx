@@ -20,10 +20,10 @@ class Contact extends Component {
           </form>
         </div>
         <div className="col-6">
-          <a href="https://twitter.com/eddy_struillou" className="contac"><img src={Twitter}/></a>
-          <a href="http://eddy.struillou@gmail.com" className="contac"><img src={Gmail}/></a>
-          <a href="https://www.linkedin.com/in/eddy-struillou-58a732145/" className="contac"><img src={Linkedin}/></a>
-          <a href="https://github.com/eddystruillou" className="contac"><img src={Github}/></a>
+          <a href="https://twitter.com/eddy_struillou" className="contac"><img src={Twitter} alt="twitter"/></a>
+          <a href="mailto:eddy.struillou@gmail.com" className="contac"><img src={Gmail} alt="gmail"/></a>
+          <a href="https://www.linkedin.com/in/eddy-struillou-58a732145/" className="contac"><img src={Linkedin} alt="linkedin"/></a>
+          <a href="https://github.com/eddystruillou" className="contac"><img src={Github} alt="github"/></a>
         </div>
       </div>
       <hr/>
