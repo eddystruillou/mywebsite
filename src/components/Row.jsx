@@ -11,7 +11,8 @@ import Projet6 from '../images/todo.png';
 class Row extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container text-center">
+      <h2>Réalisations</h2>
         <div className="row content">
           <div className="col-4">
             <a href="http://eddystruillou.com/"><img src={Projet1} alt="chalets" className="img-fluid"/></a>
@@ -32,6 +33,7 @@ class Row extends Component {
             <a href="http://projet8.eddystruillou.com/"><img src={Projet6} alt="todo" className="img-fluid"/></a>
           </div>
         </div>
+        <hr />
       </div>
     );
   }

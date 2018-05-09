@@ -1,8 +1,13 @@
 .jumbotron {
-  background-image: url(../images/joanna-kosinska.jpg);
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
   color: white;
   margin-bottom: 0;
+}
+
+.me {
+  width: 15%;
+  margin-left: 41%;
 }

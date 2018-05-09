@@ -1,0 +1,35 @@
+import React, { Component } from 'react';
+import "./Contact.css";
+import Twitter from '../images/twitter.png';
+import Gmail from '../images/gmail.png';
+import Linkedin from '../images/linkedin.png';
+import Github from '../images/github.png';
+
+
+class Contact extends Component {
+  render () {
+    return (
+      <div className="container text-center">
+        <h2>Contact</h2>
+      <div className="row content">
+        <div className="col-6">
+          <form method="POST" action="https://formspree.io/eddy.struillou@gmail.com">
+            <input type="email" name="email" placeholder="Your email"/>
+            <textarea name="message" placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div className="col-6">
+          <a href="https://twitter.com/eddy_struillou" className="contac"><img src={Twitter}/></a>
+          <a href="http://eddy.struillou@gmail.com" className="contac"><img src={Gmail}/></a>
+          <a href="https://www.linkedin.com/in/eddy-struillou-58a732145/" className="contac"><img src={Linkedin}/></a>
+          <a href="https://github.com/eddystruillou" className="contac"><img src={Github}/></a>
+        </div>
+      </div>
+      <hr/>
+      </div>
+    );
+  }
+}
+
+export default Contact;
