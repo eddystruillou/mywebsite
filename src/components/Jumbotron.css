@@ -1,13 +1,13 @@
 .jumbotron {
-  background-color: black;
+  background-image: url("../images/repeat.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
   color: white;
   margin-bottom: 0;
+  height: 300px;
 }
 
-.me {
-  width: 15%;
-  margin-left: 41%;
+#titre {
+  margin-top: 60px;
 }

@@ -14,10 +14,9 @@ class Projects extends Component {
   render () {
     return (
       <div>
-        <Jumbotron />
+        <Jumbotron title="Projets" subtitle="quelque chose ici"/>
         <Navbar />
         <div className="container">
-          <h2>Projets</h2>
           <div className="parallax text-center">
           <div className="row">
             <div className="col-5 pt-5">
@@ -33,7 +32,7 @@ class Projects extends Component {
               livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, 
               mais s'est aussi adapté à la bureautique informatique, sans que 
               </p>
-              <a href="http://eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
+              <a href="http://eddystruillou.com/"><button type="button" className="btn btn-dark">Plus d'info</button></a>
             </div>
           </div>
         </div>
@@ -50,7 +49,7 @@ class Projects extends Component {
               livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, 
               mais s'est aussi adapté à la bureautique informatique, sans que 
               </p>
-              <a href="http://festivaldesfilmsdepleinair.eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
+              <a href="http://festivaldesfilmsdepleinair.eddystruillou.com/"><button type="button" className="btn btn-dark">Plus d'info</button></a>
             </div>
             <div className="col-5 pt-5">
               <img src={Projet2} className="img-fluid" alt="festivaldesfilms"/>
@@ -73,7 +72,7 @@ class Projects extends Component {
               livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, 
               mais s'est aussi adapté à la bureautique informatique, sans que 
               </p>
-              <a href="http://projet5.eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
+              <a href="http://projet5.eddystruillou.com/"><button type="button" className="btn btn-dark">Plus d'info</button></a>
             </div>
           </div>
         </div>
@@ -90,7 +89,7 @@ class Projects extends Component {
               livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, 
               mais s'est aussi adapté à la bureautique informatique, sans que 
               </p>
-              <a href="http://projet6.eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
+              <a href="http://projet6.eddystruillou.com/"><button type="button" className="btn btn-darko">Plus d'info</button></a>
             </div>
             <div className="col-5 pt-5">
               <img src={Projet4} className="img-fluid" alt="jeutourpartour"/>
@@ -113,7 +112,7 @@ class Projects extends Component {
               livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, 
               mais s'est aussi adapté à la bureautique informatique, sans que 
               </p>
-              <a href="http://projet7.eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
+              <a href="http://projet7.eddystruillou.com/"><button type="button" className="btn btn-dark">Plus d'info</button></a>
             </div>
           </div>
         </div>
@@ -130,7 +129,7 @@ class Projects extends Component {
               livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, 
               mais s'est aussi adapté à la bureautique informatique, sans que 
               </p>
-              <a href="http://projet8.eddystruillou.com/"><button type="button" className="btn btn-info">Plus d'info</button></a>
+              <a href="http://projet8.eddystruillou.com/"><button type="button" className="btn btn-dark">Plus d'info</button></a>
             </div>
             <div className="col-5 pt-5">
               <img src={Projet6} className="img-fluid" alt="todolist"/>

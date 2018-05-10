@@ -16,7 +16,7 @@ class Contact extends Component {
           <form method="POST" action="https://formspree.io/eddy.struillou@gmail.com">
             <input type="email" name="email" placeholder="Your email"/>
             <textarea name="message" placeholder="Your message"></textarea>
-            <button type="submit">Send</button>
+            <button type="submit" className="btn btn-dark">Send</button>
           </form>
         </div>
         <div className="col-6">

@@ -13,7 +13,7 @@ class Row extends Component {
     return (
       <div className="container text-center">
       <h2>Réalisations</h2>
-        <div className="row content">
+        <div className="row">
           <div className="col-4">
             <a href="http://eddystruillou.com/"><img src={Projet1} alt="chalets" className="img-fluid"/></a>
           </div>
