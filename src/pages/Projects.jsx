@@ -14,7 +14,7 @@ class Projects extends Component {
   render () {
     return (
       <div>
-        <Jumbotron title="Projets" subtitle="les projets que j'ai réalisé" />
+        <Jumbotron />
         <Navbar />
         <div className="container">
           <h2>Projets</h2>
