@@ -11,7 +11,7 @@ class Home extends Component {
   render () {
     return (
       <div>
-        <Jumbotron title="Welcome" subtitle="quelque chose ici"/>
+        <Jumbotron title="Bienvenue" subtitle="Moi c'est Eddy"/>
         <Navbar />
         <div className="container">
           <Parcours />
