@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import "./Contact.css";
 import Twitter from '../images/twitter.png';
-import Gmail from '../images/gmail.png';
 import Linkedin from '../images/linkedin.png';
 import Github from '../images/github.png';
 
