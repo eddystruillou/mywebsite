@@ -27,14 +27,12 @@ class Etudes extends Component {
               Les projets que j'ai rélisé m'ont permis de maîtriser les langages HTML5, CSS3, JavaScript 
               ainsi que différents framework tel que Bootstrap, SASS, jQuery et React. <br/>
               J'ai également acquis de l'expérience avec l'utilisation du MVC, d'API REST,
-              la programmation orientée objet (POO), .
+              la programmation orientée objet (POO) et l'outil de versionning git.
               </p>
             </div>
-            <div className="col-5"></div>
-            <div className="col-2">
+            <div className="col-12">
             <a href="https://drive.google.com/open?id=1D_08eQuzJUFgvE-9U1EZQSsZ8Y4ZF0qC"><button type="button" className="btn btn-dark">Voir CV</button></a>
             </div>
-            <div className="col-5"></div>
           </div>
         </div>
         <hr/>

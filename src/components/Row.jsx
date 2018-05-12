@@ -33,7 +33,7 @@ class Row extends Component {
             <a href="http://projet8.eddystruillou.com/"><img src={Projet6} alt="todo" className="img-fluid"/></a>
           </div>
         </div>
-        <hr />
+        <hr id="hreal" />
       </div>
     );
   }

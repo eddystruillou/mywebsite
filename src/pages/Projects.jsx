@@ -115,7 +115,7 @@ class Projects extends Component {
             <div className="col-7 pt-5">
               <h2>Reprendre un projet existant</h2>
               <p> 
-              Dans ce projet de "todo list" que j'ai récupéré, ma misson a été de corrier des bugs, ajouter des tests
+              Dans ce projet de "todo list" que j'ai récupéré, ma misson a été de corriger des bugs, ajouter des tests
               unitaires avec Jasmine et optimiser les performances.
               J'ai aussi effectué un audit de performance et une comparaison avec l'audit d'un site concurrent
               en rédigeant un wiki sur mon profil github.
