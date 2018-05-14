@@ -5,7 +5,6 @@ import Jumbotron from '../components/Jumbotron';
 import Row from '../components/Row';
 import Parcours from '../components/Row2';
 import Contact from '../components/Contact';
-import './Home.css';
 
 class Home extends Component {
   render () {

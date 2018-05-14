@@ -16,22 +16,22 @@ class Row extends Component {
       <h2>Réalisations</h2>
         <div className="row">
           <div className="col-4">
-            <a href="http://eddystruillou.com/"><img src={Projet1} alt="chalets" className="img-fluid"/></a>
+            <a href="http://eddystruillou.com/" target="_blank"><img src={Projet1} alt="chalets" className="img-fluid"/></a>
           </div>
           <div className="col-4">
-            <a href="http://festivaldesfilmsdepleinair.eddystruillou.com/"><img src={Projet2} alt="festiv" className="img-fluid"/></a>
+            <a href="http://festivaldesfilmsdepleinair.eddystruillou.com/" target="_blank"><img src={Projet2} alt="festiv" className="img-fluid"/></a>
           </div>
           <div className="col-4">
-            <a href="http://projet5.eddystruillou.com/"><img src={Projet3} alt="gener" className="img-fluid"/></a>
+            <a href="http://projet5.eddystruillou.com/" target="_blank"><img src={Projet3} alt="gener" className="img-fluid"/></a>
           </div>
           <div className="col-4">
-            <a href="http://projet6.eddystruillou.com/"><img src={Projet4} alt="jeu" className="img-fluid"/></a>
+            <a href="http://projet6.eddystruillou.com/" target="_blank"><img src={Projet4} alt="jeu" className="img-fluid"/></a>
           </div>
           <div className="col-4">
-            <a href="http://projet7.eddystruillou.com/"><img src={Projet5} alt="restau" className="img-fluid"/></a>
+            <a href="http://projet7.eddystruillou.com/" target="_blank"><img src={Projet5} alt="restau" className="img-fluid"/></a>
           </div>
           <div className="col-4">
-            <a href="http://projet8.eddystruillou.com/"><img src={Projet6} alt="todo" className="img-fluid"/></a>
+            <a href="http://projet8.eddystruillou.com/" target="_blank"><img src={Projet6} alt="todo" className="img-fluid"/></a>
           </div>
           <div className="col-12 pt-3">
             <Link className="nav-link" to="/projects"><button type="button" className="btn btn-dark">Plus d'infos</button></Link>

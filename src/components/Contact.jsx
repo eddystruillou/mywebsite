@@ -19,9 +19,9 @@ class Contact extends Component {
           </form>
         </div>
         <div className="col-6 pt-4">
-          <a href="https://twitter.com/eddy_struillou" className="contac"><img src={Twitter} alt="twitter"/></a>
-          <a href="https://www.linkedin.com/in/eddy-struillou-58a732145/" className="contac"><img src={Linkedin} alt="linkedin"/></a>
-          <a href="https://github.com/eddystruillou" className="contac"><img src={Github} alt="github"/></a>
+          <a href="https://twitter.com/eddy_struillou" className="contac" target="_blank"><img src={Twitter} alt="twitter"/></a>
+          <a href="https://www.linkedin.com/in/eddy-struillou-58a732145/" className="contac" target="_blank"><img src={Linkedin} alt="linkedin"/></a>
+          <a href="https://github.com/eddystruillou" className="contac" target="_blank"><img src={Github} alt="github"/></a>
         </div>
       </div>
       </div>

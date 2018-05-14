@@ -30,7 +30,7 @@ class Projects extends Component {
                 Pour cela j'ai utilisé les API Google Maps et Google Places ainsi que Géolocalisation.
                 Le projet à lui aussi été réalisé en Vanilla JavaScript avec une organisation objet.
                 </p>
-                <a href="http://projet7.eddystruillou.com/"><button type="button" className="btn btn-dark">Voir</button></a>
+                <a href="http://projet7.eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ class Projects extends Component {
                 J'ai choisi d'utiliser canvas pour la gestion de ma grille pour permettre d'implanter 
                 des animations au cas où le projet vienne à évoluer.
                 </p>
-                <a href="http://projet6.eddystruillou.com/"><button type="button" className="btn btn-dark">Voir</button></a>
+                <a href="http://projet6.eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
               <div className="col-5 pt-3">
                 <img src={Projet4} className="img-fluid" alt="jeutourpartour"/>
@@ -67,7 +67,7 @@ class Projects extends Component {
                 en rédigeant un wiki sur mon profil github.
                 Pour finir, j'ai écrit un "guide utilisateur" ainsi qu'une documentation technique du projet et de son fonctionnement.
                 </p>
-                <a href="http://projet8.eddystruillou.com/"><button type="button" className="btn btn-dark">Voir</button></a>
+                <a href="http://projet8.eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ class Projects extends Component {
                 générateurs (Anglais ou Français).
                 Une fois les citations générées, vous pouvez choisir de continuer ou d'arrêter le programme.
                 </p>
-                <a href="http://projet5.eddystruillou.com/"><button type="button" className="btn btn-dark">Voir</button></a>
+                <a href="http://projet5.eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
               <div className="col-5 pt-3">
                 <img src={Projet3} className="img-fluid" alt="generateurcitations"/>
@@ -104,7 +104,7 @@ class Projects extends Component {
                 Le but était de rédiger un document de spécification technique du projet ainsi que présenter une maquette
                 du futur site.
                 </p>
-                <a href="http://festivaldesfilmsdepleinair.eddystruillou.com/"><button type="button" className="btn btn-dark">Voir</button></a>
+                <a href="http://festivaldesfilmsdepleinair.eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ class Projects extends Component {
                 La décision a été de partir sur la création d'un site sous Wordpress en respectant la ligne "luxe"
                 de l'agence.
                 </p>
-                <a href="http://eddystruillou.com/"><button type="button" className="btn btn-dark">Voir</button></a>
+                <a href="http://eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
               <div className="col-5 pt-3">
                 <img src={Projet1} className="img-fluid" alt="chalet&caviar"/>
