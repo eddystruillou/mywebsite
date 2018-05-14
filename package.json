@@ -2,7 +2,7 @@
   "name": "my-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://eddystruillou.github.io/mywebsite/",
+  "homepage": "https://eddystruillou.github.io/mywebsite/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.3.2",
