@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Row.css';
 import Projet1 from '../images/chalets.png';
 import Projet2 from '../images/festiv.png';
@@ -31,6 +32,9 @@ class Row extends Component {
           </div>
           <div className="col-4">
             <a href="http://projet8.eddystruillou.com/"><img src={Projet6} alt="todo" className="img-fluid"/></a>
+          </div>
+          <div className="col-12 pt-3">
+            <Link className="nav-link" to="/projects"><button type="button" className="btn btn-dark">Plus d'infos</button></Link>
           </div>
         </div>
         <hr id="hreal" />
