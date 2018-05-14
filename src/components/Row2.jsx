@@ -31,7 +31,7 @@ class Etudes extends Component {
               </p>
             </div>
             <div className="col-12">
-            <a href="https://drive.google.com/open?id=1D_08eQuzJUFgvE-9U1EZQSsZ8Y4ZF0qC"><button type="button" className="btn btn-dark">Voir CV</button></a>
+            <a href="https://drive.google.com/open?id=1D_08eQuzJUFgvE-9U1EZQSsZ8Y4ZF0qC" target="_blank"><button type="button" className="btn btn-dark">Voir CV</button></a>
             </div>
           </div>
         </div>
