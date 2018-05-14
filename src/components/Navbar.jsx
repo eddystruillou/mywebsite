@@ -11,7 +11,7 @@ class Navbar extends Component {
       </button>
       <div className="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
         <ul className="navbar-nav">
-          <li className="nav-item px-3 active">
+          <li className="nav-item px-3">
             <Link className="nav-link" to="/">Accueil <span className="sr-only">(current)</span></Link>
           </li>
           <li className="nav-item px-3">

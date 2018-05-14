@@ -77,12 +77,11 @@ class Projects extends Component {
               <div className="col-7 pt-3">
                 <h2>Générateur de citations</h2>
                 <p>
-                Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
-                impression. 
-                Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, 
-                quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un 
-                livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, 
-                mais s'est aussi adapté à la bureautique informatique, sans que
+                Construction d'un générateur de citations en Vanilla JavaScript. Les citations sont construites aléatoirement en
+                assemblant des morceaux de phrase.
+                Vous pouvez choisir le nombre de citations générées (de 1 à 5) ainsi que choisir entre 2 types de
+                générateurs (Anglais ou Français).
+                Une fois les citations générées, vous pouvez choisir de continuer ou d'arrêter le programme.
                 </p>
                 <a href="http://projet5.eddystruillou.com/"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
