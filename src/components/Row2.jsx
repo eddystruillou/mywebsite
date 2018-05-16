@@ -14,8 +14,8 @@ class Etudes extends Component {
               J'ai 24 ans, je suis développeur Front-End. <br/>
               Ce que j'aime dans ce métier.. la liberté d'expression qui s'offre à nous,
               laisser libre cours à notre imagination, repousser ses limites chaque jour. <br/>
-              Le fait d'apprendre de nouvelles choses tout au long de sa carrière rend ce métier 
-              encore plus attrayant. 
+              Le fait d'apprendre tout au long de sa carrière rend ce métier 
+              encore plus attrayant.
               </p>
             </div>
             <div className="col-2 pt-4">
