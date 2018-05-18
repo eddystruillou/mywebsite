@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import "./Contact.css";
-import Twitter from '../images/twitter.png';
-import Linkedin from '../images/linkedin.png';
-import Github from '../images/github.png';
 
 
 class Contact extends Component {
@@ -19,9 +16,10 @@ class Contact extends Component {
           </form>
         </div>
         <div className="col-6 pt-4">
-          <a href="https://twitter.com/eddy_struillou" className="contac" target="_blank"><img src={Twitter} alt="twitter"/></a>
-          <a href="https://www.linkedin.com/in/eddy-struillou-58a732145/" className="contac" target="_blank"><img src={Linkedin} alt="linkedin"/></a>
-          <a href="https://github.com/eddystruillou" className="contac" target="_blank"><img src={Github} alt="github"/></a>
+          <a href="https://twitter.com/eddy_struillou" className="contac" target="_blank"><img src="https://res.cloudinary.com/xyao/image/upload/v1526632563/twitter.png" alt="twitter"/></a>
+          <a href="https://www.linkedin.com/in/eddy-struillou-58a732145/" className="contac" target="_blank"><img src="https://res.cloudinary.com/xyao/image/upload/v1526632541/linkedin.png" alt="linkedin"/></a>
+          <a href="https://github.com/eddystruillou" className="contac" target="_blank"><img src="https://res.cloudinary.com/xyao/image/upload/v1526632492/github.png" alt="github"/></a>
+          <a href="mailto:eddy.struillou@gmail.com" className="contac" target="_blank"><img src="https://res.cloudinary.com/xyao/image/upload/v1526632828/gmail.png" alt="gmail"/></a>
         </div>
       </div>
       </div>

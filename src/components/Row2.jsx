@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Row2.css';
-import logo from '../images/logo1.png';
 
 class Etudes extends Component {
   render () {
@@ -19,7 +18,7 @@ class Etudes extends Component {
               </p>
             </div>
             <div className="col-2 pt-4">
-              <img src={logo} id="logo" alt="logo"/>
+              <img src="https://res.cloudinary.com/xyao/image/upload/v1526632403/logo1.png" id="logo" alt="logo"/>
             </div>
             <div className="col-5 pt-3">
               <h2>Compétences</h2>

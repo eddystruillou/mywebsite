@@ -3,12 +3,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Jumbotron from '../components/Jumbotron';
 import Contact from '../components/Contact'
-import Projet1 from '../images/chalets.png';
-import Projet2 from '../images/festiv.png';
-import Projet3 from '../images/gener.png';
-import Projet4 from '../images/jeu.png';
-import Projet5 from '../images/restau.png';
-import Projet6 from '../images/todo.png';
 
 class Projects extends Component {
   render () {
@@ -20,10 +14,10 @@ class Projects extends Component {
           <div className="parallax text-center">
             <div className="row">
               <div className="col-5 pt-5">
-                <img src={Projet5} className="img-fluid" alt="maprestauration"/>
+                <img src="https://res.cloudinary.com/xyao/image/upload/v1526632060/restau.png" className="img-fluid" alt="maprestauration"/>
               </div>
               <div className="col-7 pt-5">
-                <h2>Site d'avis de restaurants</h2>
+                <h2>Site d'avis de restaurants.</h2>
                 <p>
                 L'objectif ici : créer un service simple et utile qui permet d'avoir des avis 
                 sur des restaurants autour de soi.
@@ -48,7 +42,7 @@ class Projects extends Component {
                 <a href="http://projet6.eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
               <div className="col-5 pt-3">
-                <img src={Projet4} className="img-fluid" alt="jeutourpartour"/>
+                <img src="https://res.cloudinary.com/xyao/image/upload/v1526631978/jeu.png" className="img-fluid" alt="jeutourpartour"/>
               </div>
             </div>
           </div>
@@ -56,7 +50,7 @@ class Projects extends Component {
           <div className="parallax text-center">
             <div className="row">
               <div className="col-5 pt-3">
-                <img src={Projet6} className="img-fluid" alt="todolist"/>
+                <img src="https://res.cloudinary.com/xyao/image/upload/v1526632112/todo.png" className="img-fluid" alt="todolist"/>
               </div>
               <div className="col-7 pt-3">
                 <h2>Reprendre un projet existant</h2>
@@ -86,7 +80,7 @@ class Projects extends Component {
                 <a href="http://projet5.eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
               <div className="col-5 pt-3">
-                <img src={Projet3} className="img-fluid" alt="generateurcitations"/>
+                <img src="https://res.cloudinary.com/xyao/image/upload/v1526631847/gener.png" className="img-fluid" alt="generateurcitations"/>
               </div>
             </div>
           </div>
@@ -94,7 +88,7 @@ class Projects extends Component {
           <div className="parallax text-center">
             <div className="row">
               <div className="col-5 pt-3">
-                <img src={Projet2} className="img-fluid" alt="festivaldesfilms"/>
+                <img src="https://res.cloudinary.com/xyao/image/upload/v1526631328/festiv.png" className="img-fluid" alt="festivaldesfilms"/>
               </div>
               <div className="col-7 pt-3">
                 <h2>Documentation et Maquette</h2>
@@ -123,7 +117,7 @@ class Projects extends Component {
                 <a href="http://eddystruillou.com/" target="_blank"><button type="button" className="btn btn-dark">Voir</button></a>
               </div>
               <div className="col-5 pt-3">
-                <img src={Projet1} className="img-fluid" alt="chalet&caviar"/>
+                <img src="https://res.cloudinary.com/xyao/image/upload/v1526631667/chalets.png" className="img-fluid" alt="chalet&caviar"/>
               </div>
             </div>
           </div>
