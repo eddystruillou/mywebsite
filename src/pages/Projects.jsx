@@ -17,7 +17,7 @@ class Projects extends Component {
                 <img src="https://res.cloudinary.com/xyao/image/upload/v1526632060/restau.png" className="img-fluid" alt="maprestauration"/>
               </div>
               <div className="col-7 pt-5">
-                <h2>Site d'avis de restaurants.</h2>
+                <h2>Site d'avis de restaurants</h2>
                 <p>
                 L'objectif ici : créer un service simple et utile qui permet d'avoir des avis 
                 sur des restaurants autour de soi.
